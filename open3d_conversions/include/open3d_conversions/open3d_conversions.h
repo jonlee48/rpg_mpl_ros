@@ -16,7 +16,7 @@
 #define OPEN3D_CONVERSIONS_HPP_
 
 // Open3D
-#include <Open3D/Open3D.h>
+#include <open3d/Open3D.h>
 
 // ROS
 #include <sensor_msgs/PointCloud2.h>

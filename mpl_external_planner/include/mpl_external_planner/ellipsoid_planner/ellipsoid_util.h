@@ -7,8 +7,8 @@
 #include <mpl_external_planner/ellipsoid_planner/primitive_ellipsoid_utils.h>
 //#include <pcl/kdtree/kdtree_flann.h>
 
-#include <Open3D/Geometry/KDTreeFlann.h>
-#include <Open3D/Geometry/PointCloud.h>
+#include <open3d/geometry/KDTreeFlann.h>
+#include <open3d/geometry/PointCloud.h>
 
 #include <boost/make_shared.hpp>
 
