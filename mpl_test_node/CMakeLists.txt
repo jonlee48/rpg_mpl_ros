@@ -5,7 +5,7 @@ project(mpl_test_node)
 if(NOT CMAKE_BUILD_TYPE)
   set(CMAKE_BUILD_TYPE Release)
 endif()
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wno-deprecated-declarations -fopenmp -DGLIBCXX_USE_CXX11_ABI=ON")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++17 -Wno-deprecated-declarations -fopenmp -DGLIBCXX_USE_CXX17_ABI=ON")
 
 
 execute_process(COMMAND lsb_release -cs
